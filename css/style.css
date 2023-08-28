@@ -421,9 +421,9 @@ img{
     letter-spacing: .5px;
     border-radius: 5px;
     margin-bottom: 12px;
-    background: linear-gradient(120deg, #074362 20.70%, #229ad7 50.10%, #9b9b9b 75.50%);
+    background: linear-gradient(120deg, #121313 20.70%, #393a3a 50.10%, #121313 75.50%);
     -webkit-background-clip: text;
-    background-clip: #074362;
+    background-clip: #ccd1d3;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
@@ -447,9 +447,18 @@ img{
     flex-wrap: wrap;
 }
 
+.estreno h2{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
 .col__50{
     flex: 0 0 50%;
     max-width: 90%;
+}
+
+.video{
+
 }
 
 .thumbnail__img{
@@ -572,6 +581,18 @@ img{
 
 }
 
+/* confiteria */
+#confitería{
+    display: grid;
+    margin-top: 100px;
+    background-color: #fff;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+    place-content: center;
+
+}
+
 .movies__main{
     width: 100vw;
     display: flex;
@@ -617,6 +638,14 @@ img{
     height: 60%;
     place-content: center;
 }
+
+#confitería img{
+    display: grid;
+    width: 100%;
+    height: 60%;
+    place-content: center;
+}
+
 
 .nameMovie{
     display: flex;
@@ -1130,7 +1159,7 @@ img{
 
     .frontpage__cta-wrapper{
         box-shadow: 0 60px 135px rgba(0, 0, 0, 0.345), 0 15px 65px rgba(6, 5, 63, 0.244);
-        background-color: #03022f;
+        background-color: #9fa59d;
         border-radius: 20px;
         margin-top: 15px;
         color: #fff;
