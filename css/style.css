@@ -363,6 +363,24 @@ img{
     text-align: center;
 }
 
+.frontpage__links-description ul{
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    list-style: none;
+
+}
+
+.frontpage__links-description ul li::before{
+    content: "\2023";
+    color: #df0e0e;
+    display: inline-block;
+    width: 1em;
+    margin-left: -0.9em;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
 .frontpage__links-description{
     color: #414040;
     font-size: 14px;
@@ -581,6 +599,24 @@ img{
 
 }
 
+/* películas nacionales */
+#nacionales{
+    display: grid;
+    margin-top: 100px;
+    background-color: #fff;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+    place-content: center;
+
+}
+
+#nacionales img{
+    width: 300px;
+    height: 500px;
+}
+
+
 /* confiteria */
 #confitería{
     display: grid;
@@ -651,6 +687,7 @@ img{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 10px;
 }
 
 .nameMovie h3{
@@ -665,6 +702,7 @@ img{
 }
 
 .stars{
+    margin-top: 10px;
     font-size: .9em;
     color: #282828;
 }
